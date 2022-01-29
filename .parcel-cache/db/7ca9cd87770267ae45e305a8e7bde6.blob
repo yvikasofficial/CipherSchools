@@ -1,0 +1,6 @@
+const start = document.querySelector('.btn-start'); 
+const stop = document.querySelector('.btn-stop'); 
+const reset = document.querySelector('.btn-reset'); 
+
+let count = 0; 
+let start = false; 

@@ -1,0 +1,19 @@
+const start = document.querySelector('.btn-start'); 
+const stop = document.querySelector('.btn-stop'); 
+const reset = document.querySelector('.btn-reset'); 
+
+const timerText = document.querySelector('.stopwatch__timer span ')
+
+let count = 0; 
+let start = false; 
+
+
+const startTimer = () => {
+    if(!start) return; 
+
+    count += 1; 
+    timerText.innerHTML = count; 
+}
+
+
+start.addEventListener('click')

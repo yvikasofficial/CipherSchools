@@ -1,0 +1,13 @@
+.stopwatch {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stopwatch__timer {
+    border: 1px solid grey; 
+}
+/*# sourceMappingURL=index.HASH_REF_e6d3324b09b9135d17b2d24c7166742c.css.map */

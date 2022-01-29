@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.HASH_REF_e6d3324b09b9135d17b2d24c7166742c.css">
+</head>
+<body>
+    <div class="stopwatch">
+        <div class="stopwatch__timer">
+            <span>00 : 00</span>
+        </div>
+        <div class="stopwatch__buttons">
+            <button>Start</button>
+            <button>Stop</button>
+            <button>Reset</button>
+        </div>
+    </div>
+    <script src="/index.HASH_REF_8633f46e39198ea0e1bae4760f0d56d3.js"></script>
+</body>
+</html>

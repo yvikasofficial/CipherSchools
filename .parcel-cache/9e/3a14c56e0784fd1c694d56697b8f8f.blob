@@ -1,0 +1,35 @@
+const startBtn = document.querySelector('.btn-start'); 
+const stopBtn = document.querySelector('.btn-stop'); 
+const resetBtn = document.querySelector('.btn-reset'); 
+
+const timerText = document.querySelector('.stopwatch__timer span ')
+
+let count = 0; 
+let start = false; 
+let stop = false;
+
+
+const startTimer = () => {
+    console.log("HIII", stop);
+    start = true; 
+    count += 1; 
+    timerText.innerHTML = count; 
+
+    if(stop) {
+        stop = false; 
+        start = false; 
+    }else { 
+        setTimeout(startTimer, 1000); 
+    }
+}
+
+const stopTimer = () => {
+    if(!start) return; 
+
+    stop = true; 
+    console.log("STOPPED");
+}
+
+
+startBtn.addEventListener('click', startTimer); 
+stopBtn.addEventListener('click', stopTimer); 

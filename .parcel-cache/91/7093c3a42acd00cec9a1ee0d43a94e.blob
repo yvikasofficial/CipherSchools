@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="stopwatch">
+        <div class="stopwatch__timer">
+
+        </div>
+        <div class="stopwatch__buttons">
+            <button>Start</button>
+            <button>Stop</button>
+            <button>Reset</button>
+        </div>
+    </div>
+</body>
+</html><script src="/index.HASH_REF_dbcaa540d95ab20b084ba492971c7a1e.js"></script>
